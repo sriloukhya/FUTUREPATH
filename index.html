@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FuturePath</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>FuturePath: from 10th class to your first job.</h1>
+<p class="lede">The trunk of the tree is 10th class. Tap a branch and its courses and sub-courses grow as new branches. Free, no login needed.</p>
+<p class="key">★ Gold = a lesser-known (hidden) career. Swipe the tree left or right. Keep tapping branches until you reach the Jobs and Skills boxes.</p>
+<div class="scroll" id="sc"><div class="stage" id="st"><svg id="sv" viewBox="0 0 1000 980" aria-hidden="true"></svg><div id="nodes"></div><div class="root">After 10th</div></div></div>
+<section class="pn" id="pn" aria-live="polite"><h2>Loading…</h2><p>Getting the latest data.</p></section>
+<section class="sch"><h2>Scholarships</h2><p><label for="stt">Select your state: </label><select id="stt"></select></p>
+<ul><li id="nsp"></li><li id="stl"></li></ul></section>
+<p class="note">This is prototype data. Exams, eligibility and years change every year, so check the official websites. Talk to your parents, teachers or school counsellor too.</p>
+</main>
+<button class="cl" id="cl" aria-expanded="false" aria-controls="chat">💬 Ask FuturePath</button>
+<section class="chat" id="chat" role="dialog" aria-label="Ask FuturePath"><div class="ch"><div><b>Ask FuturePath</b><small>Answers only from this site’s data. Please don’t share personal details.</small></div><button id="cx" aria-label="Close chat">✕</button></div><div class="cm" id="cm" aria-live="polite"></div><div class="cc" id="cc"></div><div class="cr"><input id="ci" type="text" maxlength="400" placeholder="Tell me what you enjoy, or ask about a course, exam or scholarship" aria-label="Your message"><button id="cs">Send</button></div></section>
+<script src="config.js"></script>
+<script src="script.js"></script>
+<script src="chat.js"></script>
+</body>
+</html>
